@@ -1,4 +1,8 @@
 spring:
   h2:
     console:
-      enabled: true
+      enabled: true  datasource:    url: jdbc:mysql://192.168.56.101:3306/springbootdemo?useSSL=false    
+    username: root
+    password: test1234
+    driver-class-name:  com.mysql.jdbc.Driver
+      jpa:    hibernate:      ddl-auto: none
